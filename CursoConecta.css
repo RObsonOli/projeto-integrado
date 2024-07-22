@@ -37,11 +37,51 @@ header nav a {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     font-weight: 600;
     font-size: 32px;
     margin-bottom: 32px;
     
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.allCards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.imagem_principal{
+    background-color: #F5F5F5;
+    width: 242px;
+    height: 154px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.card{
+    background-color: #ffffff;
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    margin-right: 10px;
+    border: solid whitesmoke 1px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.card:hover {
+    border: purple solid 1px;
+    transition: 0.7s;
 }
 
 .paragrafo {
@@ -185,8 +225,6 @@ footer p a {
     color: #ffffff;
     text-decoration: none;
 }
-
-
 
 #copyright {
     background-color: #263138;
